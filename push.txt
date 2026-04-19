@@ -1,1 +1,11 @@
 testing git push from local
+# Working on feature
+git add .
+git stash
+
+# Switch branch
+git checkout main
+
+# Come back later
+git checkout feature
+git stash pop
